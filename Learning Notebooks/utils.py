@@ -81,7 +81,8 @@ def plot_seasonality_for_airlines(normalize=False):
         s.index = np.arange(s.shape[0])
         s.plot(label=year)
 
-    plt.legend();
+    plt.legend()
+    return figure
     
 
 def load_electricity_consumption_series():
