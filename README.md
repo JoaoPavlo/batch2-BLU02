@@ -8,7 +8,7 @@ If you are on Anaconda, this should already be installed. If you are using pip o
 it via:
 
 ```
-pip install --upgrade --no-deps statsmodels
+pip install --upgrade statsmodels
 ```
 
 If for some reason, your Anaconda installation doesn't find it, you can open the terminal as described in the Setup repo
